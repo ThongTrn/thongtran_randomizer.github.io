@@ -33,7 +33,7 @@ function preload() {
 
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(800, 800);
   background(200);
   textSize (50);
   imageMode(CENTER);
@@ -75,7 +75,7 @@ function randomizer() {
     foods.splice(randomIndex, 1);
 
   } else {
-    text("Enjoy!", 500, 900);
+    text("Enjoy!", 660, 400);
   }
 }
 function buttonPressed() {
